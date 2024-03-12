@@ -264,6 +264,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5461007150070136023, guid: 764bc68a1a0dd384184fdeedf75892f9, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 1373523028}
+    - target: {fileID: 5461007150070136023, guid: 764bc68a1a0dd384184fdeedf75892f9, type: 3}
       propertyPath: fuelTank
       value: 
       objectReference: {fileID: 889074794}
@@ -271,6 +275,10 @@ PrefabInstance:
       propertyPath: fuelText
       value: 
       objectReference: {fileID: 1592067546}
+    - target: {fileID: 5461007150070136023, guid: 764bc68a1a0dd384184fdeedf75892f9, type: 3}
+      propertyPath: fuelValue
+      value: 5000
+      objectReference: {fileID: 0}
     - target: {fileID: 5741282534517280889, guid: 764bc68a1a0dd384184fdeedf75892f9, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -488,6 +496,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8873963287145019733, guid: 533fe24c941741d43a52983641a0e9cb, type: 3}
   m_PrefabInstance: {fileID: 1776538107636177162}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1373523028 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4607678812407846907, guid: 764bc68a1a0dd384184fdeedf75892f9, type: 3}
+  m_PrefabInstance: {fileID: 339016043}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1592067544
 GameObject:
   m_ObjectHideFlags: 0

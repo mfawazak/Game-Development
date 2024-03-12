@@ -11,6 +11,7 @@ public class Car : MonoBehaviour
     public float burstSpeedMultiplier = 2f;
     public float burstDuration = 2f;
     private bool burstAvailable = true;
+    public Slider slider;
 
     public float fuelValue = 500;
     // Start is called before the first frame update
@@ -81,7 +82,7 @@ public class Car : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Fuel"))
         {
-            fuelValue += 100;
+            fuelValue += 2000;
             fuelText.text = "Fuel is" + fuelValue.ToString();
             Destroy(other.gameObject);
         }
